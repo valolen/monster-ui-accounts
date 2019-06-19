@@ -562,8 +562,6 @@ define(function(require) {
 						$otherInputChoices.removeAttr('disabled');
 						selectedCount -= 1;
 					}
-
-					$otherInputs.trigger('chosen:updated');
 				};
 
 			$planAddLink.on('click', function(e) {
@@ -665,6 +663,39 @@ define(function(require) {
 				item: $planSelectorTemplate,
 				listContainer: args.planListContainer,
 				animate: args.animate
+			});
+		},
+
+		wizardServicePlanGenerateListing: function(args) {
+			var self = this,
+				parallelCallback = args.parallelCallback,
+				completeCallback = args.completeCallback,
+				$planListContainer = args.planListContainer,
+				enablePlanSelectors = function(enable) {
+					$planListContainer.find('select').prop('disabled', !enable).trigger('chosen:updated');
+				};
+
+			enablePlanSelectors(false);
+
+			monster.parallel([
+				function(callback) {
+					parallelCallback();
+					callback(null);
+				},
+				function(callback) {
+					self.serviceItemsListingRender({
+						success: function() {
+							enablePlanSelectors(true);
+							callback(null);
+						},
+						error: function() {
+							enablePlanSelectors(true);
+							callback(true);
+						}
+					});
+				}
+			], function() {
+				completeCallback();
 			});
 		},
 
