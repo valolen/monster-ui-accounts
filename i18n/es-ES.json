@@ -10,8 +10,8 @@
 	"enable": "Permitir",
 	"add": "Añadir ",
 	"save": "Guardar",
-	"update": "Acvtualizar",
-	"none": "Ningun",
+	"update": "Actualizar",
+	"none": "Ninguno",
 	"month": "Mes",
 	"missingAccount": "Cuenta Ausente",
 	"disableAccount": "Desactivar esta Cuenta",
@@ -23,12 +23,12 @@
 	"accountStatus": "Estado de Cuenta",
 	"accountId": "Identificación de la cuenta",
 	"accountName": "Nombre de la cuenta",
-	"accountRealm": "Reino de cuenta",
-	"accountTimezone": "Zona de Horaria",
+	"accountRealm": "Dominio",
+	"accountTimezone": "Zona Horaria",
 	"accountLanguage": "Idioma",
-	"accountTimezoneTitle": "Idioma y Zona horaria",
+	"accountTimezoneTitle": "Título de Zona horaria",
 	"accountAdmins": "Administradores de cuenta",
-	"noAdminMessage": "Esta cuenta no tiene ningún admin",
+	"noAdminMessage": "Esta cuenta no tiene ningún administrador",
 	"noUserMessage": "Esta cuenta no tiene ningún usuario regular",
 	"newAdmin": "Agregar un nuevo administrador",
 	"newUser": "Nuevo usuario",
@@ -89,7 +89,7 @@
 	"allowPrepay": "Permiten a los clientes hacer llamadas por minuto que vayan sobre el límite anterior y les cargales el costo por minuto de la llamada",
 	"addAdminLink": {
 		"toggleOn": "Añadir un administrador a la cuenta",
-		"toggleOff": "Cambié de opinión, quien necesita un admin?"
+		"toggleOff": "Cambié de opinión, quien necesita un administrador?"
 	},
 	"adminLabels": {
 		"firstName": "Nombre del administrador",
@@ -101,12 +101,12 @@
 		"confirm": "Confirmar Contraseña",
 		"__comment": "UI-1169: Sending an email to newly created admins",
 		"__version": "v3.20_s3",
-		"sendCredentialsEmail": "Enviar un correo electrónico a este admin con un recordatorio de estas credenciales",
-		"sendCredentialsEmailShort": "Enviar un correo electrónico con resumen de los credenciales "
+		"sendCredentialsEmail": "Enviar un correo electrónico a este administrador con un recordatorio de estas credenciales",
+		"sendCredentialsEmailShort": "Enviar un correo electrónico con resumen de las credenciales "
 	},
 	"adminPlaceholders": {
 		"firstName": "Nombre",
-		"lastName": "Apedillo",
+		"lastName": "Apellido",
 		"email": "Correo Electrónico",
 		"number": " Número de Teléfono",
 		"password": "Contraseña",
@@ -116,21 +116,21 @@
 		"setupAccount": "Configurar una cuenta",
 		"servicePlan": "Elija el Plan de servicio",
 		"limits": "Restricciones de llamadas",
-		"restrictions": "Permisos"
+		"restrictions": "Restricciones"
 	},
 	"wizardProcessingMessage1": "Procesando el pedido...",
 	"wizardProcessingMessage2": "Por favor espere mientras se crea la cuenta.",
 	"autogenPasswordPopup": {
-		"message": "Contraseña ha sido generado automáticamente para el administrador {{adminName}}. Esta es la única vez que se mostrará esta contraseña, usted debe memorizarlo o anotarlo.",
+		"message": "La contraseña ha sido generada automáticamente para el administrador {{adminName}}. Esta es la única vez que se mostrará esta contraseña, usted debe memorizarla o anotarla.",
 		"login": "Login:",
 		"password": "Contraseña:"
 	},
 	"toastrMessages": {
-		"servicePlanUpdateSuccess": "Plan del servicio avctivo se ha actualizado con éxito!",
+		"servicePlanUpdateSuccess": "¡Plan del servicio activo se ha actualizado con éxito!",
 		"servicePlanUpdateError": "¡Un error inesperado ocurrió! Por favor intente otra vez.",
 		"servicePlanReconciliationSuccess": "¡Reconciliación completada con éxito!",
 		"servicePlanReconciliationError": "¡Un error ocurrió durante el proceso de reconciliación! Por favor Inténtalo más tarde. ",
-		"servicePlanSynchronizationSuccess": "Sincronización se ha completado con éxito!",
+		"servicePlanSynchronizationSuccess": "¡Sincronización se ha completado con éxito!",
 		"servicePlanSynchronizationError": "¡Un error ocurrió durante el proceso de Sincronización! Por favor Inténtalo más tarde.",
 		"limitsUpdateSuccess": "¡Límites actualizados con éxito!",
 		"limitsUpdateError": "Se ha producido un error inesperado al actualizar los límites, por favor, inténtelo de nuevo más tarde.",
@@ -147,7 +147,7 @@
 		},
 		"uiRestrictionsUpdateSuccess": "Restricciones de UI han sido actualizadas con éxito!",
 		"uiRestrictionsUpdateError": "Un error inesperado ocurrió actualizando las restricciones UI, por favor intente otra vez más tarde.",
-		"notesUpdateSuccess": "Notas actualizadas con éxito!",
+		"notesUpdateSuccess": "¡Notas actualizadas con éxito!",
 		"notesUpdateError": "Un error inesperado ocurrió actualizando las notas, por favor intente otra vez más tarde.",
 		"triggerMasquerading": "Usted está enmascarando la cuenta \"{{accountName}}\".",
 		"restoreMasquerading": "Usted ya no está enmascarado.",
@@ -157,7 +157,7 @@
 		"callRestrictionsUpdateError": "Un error inesperado ocurrió actualizando las restricciones de llamada, por favor intente otra vez más tarde."
 	},
 	"uiRestrictionsLegend": "Seleccione lo que su cliente puede ver",
-	"uiRestrictionsTooltip": "Cuando haga clic en su nombre de la esquina derecha superior de la pantalla, verá un menú desplegable. Puede restringir la vista de estas opciones a su subcuenta por simplemente desmárquelo en el de permisos de la cuenta.",
+	"uiRestrictionsTooltip": "Cuando haga clic en su nombre en la esquina superior derecha de la pantalla, verá un menú desplegable. Puede restringir la vista de estas opciones a su subcuenta, simplemente desmárquelo en los permisos de la cuenta.",
 	"uiRestrictionsMenu": {
 		"settings": "Ajustes",
 		"user": "Usuario",
@@ -169,14 +169,14 @@
 		"perMinute": "Por Minuto",
 		"trunking": "Enlaces",
 		"inbound": "Entrante",
-		"outbound": "Salientes",
+		"outbound": "Saliente",
 		"__comment": "UI-664: New restriction for twoway trunks",
 		"__version": "v3.19_s2",
 		"twoway": "Dos Direcciones",
 		"__comment": "UI-1074: New restriction for Misc Error Tracker",
 		"__version": "v3.20_s2",
 		"errorTracker": "Registro de errores de UI",
-		"misc": "Misc"
+		"misc": "Misceláneos"
 	},
 	"uiRestrictionsExtraSettings": {
 		"perMinute": {
@@ -190,9 +190,9 @@
 	},
 	"notesLegend": "Escriba algunas notas sobre esta cuenta",
 	"landingContent": [
-		"Puede editar un sub-cuenta seleccionando de la lista de la izquierda",
+		"Puede editar una sub-cuenta seleccionando de la lista de la izquierda",
 		"O",
-		"Crear un nuevo sub-cuenta haciendo clic en el botón \"Agregar nueva cuenta\"."
+		"Crear una nueva sub-cuenta haciendo clic en el botón \"Agregar nueva cuenta\"."
 	],
 	"__comment": "UI-966: created common control for carrier selection",
 	"__version": "v3.20_s0",
@@ -210,7 +210,7 @@
 	"disabledAddCreditTooltip": "Braintree es necesaria para añadir crédito. Por favor, póngase en contacto con su administrador para obtener más información.",
 	"__comment": "UI-1448: Add name of the account to be deleted in the confirm message for a better UX",
 	"__version": "v3.20_s5",
-	"deleteAccountConfirmVar": "Esta cuenta (\"{{accountName}}\") se eliminará permanentemente. Continuar?",
+	"deleteAccountConfirmVar": "Esta cuenta (\"{{accountName}}\") se eliminará permanentemente. ¿Continuar?",
 
 	"__comment": "UI-1460: Force user to type a string before deleting an account",
 	"__version": "v3.20_s5",
@@ -226,16 +226,16 @@
 	"__comment": "UI-1609: Add a way to Remove Credit",
 	"__version": "3.21",
 	"updateCreditDialog": {
-		"title": "Actualizar la cantidad de créditos",
+		"title": "Actualizar la cantidad de crédito",
 		"creditBalance": "Saldo de crédito disponible",
 		"addCredit": "Agregar",
 		"removeCredit": "Quitar",
 		"addCreditOne": "Agregar crédito una vez",
 		"removeCreditOne": "Quitar crédito una vez",
 		"helpAddCreditOne": "Usando esto, agregará algunos créditos al saldo de esta cuenta, que le permitirá habilitar características tales como e911 o identificador de llamadas, sino también para hacer llamadas por minuto.",
-		"helpRemoveCreditOne": " Se permiten quitar créditos de la sub-cuentas con esta característica. Si añade demasiado muchos créditos a una cuenta, usted puede detectar el error y corregirlo por extracción de los créditos adicionales, por ejemplo.",
+		"helpRemoveCreditOne": " Se permiten quitar créditos de la sub-cuentas con esta característica. Si añade demasiado crédito a una cuenta, usted puede detectar el error y corregirlo por extracción de los créditos adicionales, por ejemplo.",
 		"placeholderAmount": "10.00",
-		"successfulUpdate":  "Felicitaciones, usted ha actualizado correctamente la cantidad de créditos disponibles en la cuenta! :)"
+		"successfulUpdate":  "¡Felicitaciones, usted ha actualizado correctamente la cantidad de créditos disponibles en la cuenta! :)"
 	},
 	"__comment": "UI-1660: Add meaningful error when trying to delete account with descendant(s)",
 	"__version": "3.22",
