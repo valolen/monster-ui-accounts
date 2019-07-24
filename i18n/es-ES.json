@@ -49,7 +49,7 @@
 	},
 	"chargeReminder" : {
 		"line1": "Su tarjeta de crédito en el archivo será inmediatamente cobrada por cualquier cambio que haga. Si ha cambiado algún servicio de repetición, los nuevos gastos serán prorrateados para su ciclo de facturación.",
-		"line2": "¿Está seguro que desea continuar?"
+		"line2": "Está seguro que desea continuar?"
 	},
 	"tabTitles": {
 		"overview": "Resumen",
@@ -210,7 +210,7 @@
 	"disabledAddCreditTooltip": "Braintree es necesaria para añadir crédito. Por favor, póngase en contacto con su administrador para obtener más información.",
 	"__comment": "UI-1448: Add name of the account to be deleted in the confirm message for a better UX",
 	"__version": "v3.20_s5",
-	"deleteAccountConfirmVar": "Esta cuenta (\"{{accountName}}\") se eliminará permanentemente. ¿Continuar?",
+	"deleteAccountConfirmVar": "Esta cuenta (\"{{accountName}}\") se eliminará permanentemente. Continuar?",
 
 	"__comment": "UI-1460: Force user to type a string before deleting an account",
 	"__version": "v3.20_s5",
@@ -219,7 +219,7 @@
 		"cancel": "Cancelar",
 		"deleteAccount": "Borrar cuenta",
 		"deleteKey": "BORRAR",
-		"deleteMessageIntro": " ¿Está seguro de que desea eliminar esta cuenta (\"{{variable}}\")?",
+		"deleteMessageIntro": " Está seguro de que desea eliminar esta cuenta (\"{{variable}}\")?",
 		"deleteMessageExplanation": " Por favor, escriba la palabra \"{{variable}}\" en la siguiente entrada y a continuación, haga clic en el botón Borrar para continuar"
 	},
 
