@@ -26,7 +26,7 @@
 	"accountRealm": "Dominio",
 	"accountTimezone": "Zona Horaria",
 	"accountLanguage": "Idioma",
-	"accountTimezoneTitle": "Título de Zona horaria",
+	"accountTimezoneTitle": "Idioma y zona horaria",
 	"accountAdmins": "Administradores de cuenta",
 	"noAdminMessage": "Esta cuenta no tiene ningún administrador",
 	"noUserMessage": "Esta cuenta no tiene ningún usuario regular",
@@ -61,7 +61,7 @@
 	"classifiers": {
 		"unknown": {
 			"name": "Además  de lo listado Anteriormente",
-			"help": "Por favor seleccione esta opción cuando quiera que esta cuenta coloque llamadas a CUALQUIER NÚMERO además del mencionado a la lista. (Cuando el formato del número es desconocido al sistema.)"
+			"help": "Por favor seleccione esta opción cuando quiera que esta cuenta coloque llamadas a CUALQUIER NÚMERO además del mencionado en la lista. (Cuando el formato del número es desconocido al sistema.)"
 		}
 	},
 	"activeServicePlan": "Plan de servicio Activo",
@@ -86,10 +86,10 @@
 	"balancePerMinute": "Saldo de crédito por minuto:",
 	"balanceTooltip": "Este crédito se utilizará para  (el plan de) hacer llamadas internacionales por minuto y recibir llamadas sin costo.",
 	"addToBalance": "Añadir a la balanza de la cuenta corriente:",
-	"allowPrepay": "Permiten a los clientes hacer llamadas por minuto que vayan sobre el límite anterior y les cargales el costo por minuto de la llamada",
+	"allowPrepay": "Permiten a los clientes hacer llamadas por minuto que vayan sobre el límite anterior y cargales el costo por minuto de la llamada",
 	"addAdminLink": {
 		"toggleOn": "Añadir un administrador a la cuenta",
-		"toggleOff": "Cambié de opinión, quien necesita un administrador?"
+		"toggleOff": "Cambié de opinión, Quién necesita un administrador?"
 	},
 	"adminLabels": {
 		"firstName": "Nombre del administrador",
@@ -115,7 +115,7 @@
 	"wizardStepTitles": {
 		"setupAccount": "Configurar una cuenta",
 		"servicePlan": "Elija el Plan de servicio",
-		"limits": "Restricciones de llamadas",
+		"limits": "Límites",
 		"restrictions": "Restricciones"
 	},
 	"wizardProcessingMessage1": "Procesando el pedido...",
@@ -126,20 +126,20 @@
 		"password": "Contraseña:"
 	},
 	"toastrMessages": {
-		"servicePlanUpdateSuccess": "¡Plan del servicio activo se ha actualizado con éxito!",
-		"servicePlanUpdateError": "¡Un error inesperado ocurrió! Por favor intente otra vez.",
-		"servicePlanReconciliationSuccess": "¡Reconciliación completada con éxito!",
-		"servicePlanReconciliationError": "¡Un error ocurrió durante el proceso de reconciliación! Por favor Inténtalo más tarde. ",
-		"servicePlanSynchronizationSuccess": "¡Sincronización se ha completado con éxito!",
-		"servicePlanSynchronizationError": "¡Un error ocurrió durante el proceso de Sincronización! Por favor Inténtalo más tarde.",
-		"limitsUpdateSuccess": "¡Límites actualizados con éxito!",
+		"servicePlanUpdateSuccess": "Plan del servicio activo se ha actualizado con éxito!",
+		"servicePlanUpdateError": "Un error inesperado ocurrió! Por favor intente otra vez.",
+		"servicePlanReconciliationSuccess": "Reconciliación completada con éxito!",
+		"servicePlanReconciliationError": "Un error ocurrió durante el proceso de reconciliación! Por favor Inténtalo más tarde. ",
+		"servicePlanSynchronizationSuccess": "La Sincronización se ha completado con éxito!",
+		"servicePlanSynchronizationError": "Un error ocurrió durante el proceso de Sincronización! Por favor Inténtalo más tarde.",
+		"limitsUpdateSuccess": "Límites actualizados con éxito!",
 		"limitsUpdateError": "Se ha producido un error inesperado al actualizar los límites, por favor, inténtelo de nuevo más tarde.",
-		"creditAddSuccess": "¡Crédito agregado con éxito a la balanza por cuenta corriente!",
+		"creditAddSuccess": "Crédito agregado con éxito a la balanza por cuenta corriente!",
 		"creditAddError": "Un error inesperado ocurrió añadiendo el crédito, por favor intente otra vez más tarde.",
 		"deleteAccountError": "Se ha producido un error al eliminar la cuenta, por favor, inténtelo de nuevo.",
 		"newAccount": {
 			"accountError": "Un error inesperado ocurrió creando la cuenta.",
-			"adminError": "No se pudo crear el administrador de cuenta.",
+			"adminError": "No se pudo crear el administrador de la cuenta.",
 			"limitsError": "Un error ocurrió estableciendo los límites.",
 			"forbiddenLimitsError": "No tiene permiso para establecer esos límites. Póngase en contacto con su representante de ventas.",
 			"creditError": "Un error ocurrió añadiendo el crédito a esta nueva cuenta, asegúrese que su información de la tarjeta de crédito es válida.",
@@ -176,7 +176,7 @@
 		"__comment": "UI-1074: New restriction for Misc Error Tracker",
 		"__version": "v3.20_s2",
 		"errorTracker": "Registro de errores de UI",
-		"misc": "Misceláneos"
+		"misc": "Misc"
 	},
 	"uiRestrictionsExtraSettings": {
 		"perMinute": {
@@ -220,7 +220,7 @@
 		"deleteAccount": "Borrar cuenta",
 		"deleteKey": "BORRAR",
 		"deleteMessageIntro": " ¿Está seguro de que desea eliminar esta cuenta (\"{{variable}}\")?",
-		"deleteMessageExplanation": " Por favor, escriba la palabra \"{{variable}}\" en la siguiente entrada y, a continuación, haga clic en el botón Borrar para continuar"
+		"deleteMessageExplanation": " Por favor, escriba la palabra \"{{variable}}\" en la siguiente entrada y a continuación, haga clic en el botón Borrar para continuar"
 	},
 
 	"__comment": "UI-1609: Add a way to Remove Credit",
@@ -228,16 +228,16 @@
 	"updateCreditDialog": {
 		"title": "Actualizar la cantidad de crédito",
 		"creditBalance": "Saldo de crédito disponible",
-		"addCredit": "Agregar",
-		"removeCredit": "Quitar",
+		"addCredit": "Agregar crédito",
+		"removeCredit": "Quitar crédito",
 		"addCreditOne": "Agregar crédito una vez",
 		"removeCreditOne": "Quitar crédito una vez",
-		"helpAddCreditOne": "Usando esto, agregará algunos créditos al saldo de esta cuenta, que le permitirá habilitar características tales como e911 o identificador de llamadas, sino también para hacer llamadas por minuto.",
-		"helpRemoveCreditOne": " Se permiten quitar créditos de la sub-cuentas con esta característica. Si añade demasiado crédito a una cuenta, usted puede detectar el error y corregirlo por extracción de los créditos adicionales, por ejemplo.",
+		"helpAddCreditOne": "Usando esto, agregará crédito al saldo de esta cuenta, que le permitirá habilitar características tales como e911 o identificador de llamadas, sino también para hacer llamadas por minuto.",
+		"helpRemoveCreditOne": " Se permiten quitar créditos de las sub-cuentas con esta característica. Si añade demasiado crédito a una cuenta, usted puede detectar el error y corregirlo por extracción de los créditos adicionales, por ejemplo.",
 		"placeholderAmount": "10.00",
 		"successfulUpdate":  "¡Felicitaciones, usted ha actualizado correctamente la cantidad de créditos disponibles en la cuenta! :)"
 	},
 	"__comment": "UI-1660: Add meaningful error when trying to delete account with descendant(s)",
 	"__version": "3.22",
-	"account_has_descendants": "Es necesario eliminar subcuentas antes de eliminar esta cuenta"
+	"account_has_descendants": "Es necesario eliminar las subcuentas antes de eliminar esta cuenta"
 }
